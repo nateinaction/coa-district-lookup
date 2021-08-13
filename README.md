@@ -20,7 +20,7 @@ coa-district-lookup path/to/csv/file.csv
 
 ## How to download
 ```bash
-git clone http://github.com/nateinaction/coa-district-lookup.git
+git clone https://github.com/nateinaction/coa-district-lookup.git
 ```
 
 ## How to build
