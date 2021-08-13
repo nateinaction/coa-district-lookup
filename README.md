@@ -15,6 +15,14 @@ streetnumber,streetname,zipcode,district
 coa-district-lookup path/to/csv/file.csv
 ```
 
+## Requirements
+- [Golang](https://golang.org/doc/install)
+
+## How to download
+```bash
+git clone http://github.com/nateinaction/coa-district-lookup.git
+```
+
 ## How to build
 ```bash
 go build
