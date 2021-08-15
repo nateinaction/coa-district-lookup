@@ -52,5 +52,8 @@ func (c Candidate) GetDistrict() (int64, error) {
 	if err != nil {
 		return 0, err
 	}
+	if len(districtData.Features) == 0 {
+		return 0, fmt.Errorf("no council district found")
+	}
 	return districtData.Features[0].Attributes.CouncilDistrict, nil
 }

@@ -12,7 +12,7 @@ type SearchResponse struct {
 
 func (s SearchResponse) HighestRankingCandidate() (Candidate, error) {
 	if len(s.Candidates) == 0 {
-		return Candidate{}, fmt.Errorf("no candidates found")
+		return Candidate{}, fmt.Errorf("no address candidates found")
 	}
 
 	var highestRanking Candidate
